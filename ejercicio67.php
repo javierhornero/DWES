@@ -26,12 +26,11 @@ $meses = [
         "09" => "septiembre", "10" => "octubre", "11" => "noviembre", "12" => "diciembre"
     ];
 
-//Quitamos el cero inicial del día si lo tiene
-        $diaLimpio = (int)$dia;
+
 //mes correspondiente del array
     $nombreMes = $meses[$mes];
 
-return "$diaLimpio de $nombreMes de $anio";
+return "$dia de $nombreMes de $anio";
 
 
 
